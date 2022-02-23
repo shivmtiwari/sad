@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* background: linear-gradient(135deg, #26a7fd, #c852f7); */
+    background-color: rgb(238, 237, 250);
+    font-family: "Poppins", sans-serif;
+  }
+  .container{
+    max-width: 700px;
+    width: 100%;
+    color: black;
+  }
+
+
+  .que{
+      text-align: left;
+      margin-bottom: 10px;
+      font-weight: 300;
+  }
+  .user-details{
+      
+      background-color: #fff;
+      padding: 30px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+  }
+
+form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+
+  .user-details .input-box input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  .form-style h3{
+    size: 35px;
+    color: red;
+  }
+  
+
+  .text-label {
+      display: block;
+      text-align: left;
+      margin-bottom: 8px;
+      font-family: 'Raleway', sans-serif;
+  }
+  
+  .fieldgroup {
+    display: inline-block;
+    padding-right: 30px;
+    margin-bottom: 8px;
+  }
+  
+  .radio {
+     text-align: left; 
+     padding: 10px;
+  }
+  .box1{
+    background-color: #fff;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+
+  }
+  .options{
+      padding-top: 20px;
+  }
+  
+  
+  #result {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: red;
+  }
+  
+ 
+  
+  button{
+      padding: 10px 5px;
+      outline: none;
+      background: rgb(127, 139, 252);
+      border: transparent;
+      border-radius: 50px;
+      cursor: pointer;
+      color: #fff;
+      font-weight: 400;
+      font-size: 20px;
+      width: 100%;
+      margin-bottom: 50px;
+      margin-top: 20px;
+  }
+  
+  button:hover{
+      background-color: rgb(106, 106, 250);
+  }
+ 
+ @media(max-width: 584px){
+  .container{
+   max-width: 100%;
+ }
+ form .user-details .input-box{
+     margin-bottom: 15px;
+     width: 100%;
+   }
+   form .category{
+     width: 100%;
+   }
+ }
+
+ 
